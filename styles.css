@@ -1,3 +1,238 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "League Spartan", sans-serif;
+}
+
+header .title {
+  color: rgb(103, 0, 103);
+  font-weight: 700;
+  font-size: 40px;
+  margin: 22px;
+  margin-left: 48px;
+  margin-top: 50px;
+}
+
+.title-paragraph {
+  margin-left: 37px;
+  width: 300px;
+  color: grey;
+  font-size: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.stars {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.stars-1 {
+  color: rgb(103, 0, 103);
+  margin: 5px;
+  background-color: #f7f2f8;
+  width: 300px;
+  display: flex;
+  align-content: stretch;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.p-stars {
+  margin: 1px;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.colton-box {
+  background-color: rgb(103, 0, 103);
+  border-radius: 5%;
+  width: 303px;
+}
+
+.profiles {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 32px;
+}
+
+.display-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 25px;
+  height: 50px;
+}
+
+.names {
+  margin-left: 10px;
+  margin-bottom: 3px;
+  color: white;
+  font-weight: 200;
+}
+
+.buyers {
+  color: rgb(231, 0, 131);
+  margin-left: 78px;
+}
+
+.text-profile {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 39px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.margin-boxers {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 1439px) {
+  .page {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  header .title {
+    max-width: 528px;
+    font-size: 81px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .title-paragraph {
+    margin: 0;
+    width: 580px;
+    font-size: 35px;
+    margin-left: 48px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    margin-bottom: 40px;
+  }
+  .stars {
+    display: flex;
+    width: 600px;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    flex-direction: row;
+    margin-left: 40px;
+  }
+  .one,
+  .two,
+  .three {
+    display: flex;
+    flex: 33%;
+  }
+  .stars-1 {
+    padding: 40px;
+    height: 70px;
+    width: 624px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .two {
+    margin-top: 185px;
+    margin-left: 220px;
+  }
+  .bracket-two {
+    margin: 20px;
+  }
+  .bracket-three {
+    margin-right: 200px;
+  }
+  .two-stars {
+    margin-left: 120px;
+  }
+  .three-stars {
+    margin-left: 240px;
+  }
+  .three {
+    display: flex;
+    flex-direction: row;
+    height: 718px;
+    margin: 132px;
+    max-height: 431px;
+    margin-right: 0px;
+  }
+  .colton-box {
+    margin: 131px;
+    margin-left: 31px;
+    width: 420px;
+  }
+  .colton-one {
+    margin-bottom: 310px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .irene-two {
+    margin-bottom: 229px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .anne-three {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text-profile {
+    padding-bottom: 53px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .names {
+    font-size: 30px;
+  }
+  .buyers {
+    font-size: 25px;
+  }
+  .display-profile {
+    margin-top: 20px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
